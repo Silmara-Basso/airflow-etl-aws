@@ -38,9 +38,9 @@ sil_dag = DAG(
 # Função para extrair dados da API
 def extrai_dados():
 
-    # Definição da URL base e da chave da API http://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=270a0a47e9dc13a61e487b5dcc5c0b06
+    # Definição da URL base e da chave da API 
     URL_BASE = "https://api.openweathermap.org/data/2.5/weather?" # http://api.openweathermap.org/
-    API_KEY = "270a0a47e9dc13a61e487b5dcc5c0b06"
+    API_KEY = "minha_key"
     CIDADE = "Curitiba"
 
     # Construção da URL completa para a requisição
